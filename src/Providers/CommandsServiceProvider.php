@@ -102,6 +102,8 @@ class CommandsServiceProvider extends ServiceProvider
             $this->commands([
                 \NexaMerchant\Commands\Console\Commands\Install::class,
                 \NexaMerchant\Commands\Console\Commands\UnInstall::class,
+
+                \NexaMerchant\Commands\Console\Commands\CartRules\CartRulesFix::class,
             ]);
         }
     }
